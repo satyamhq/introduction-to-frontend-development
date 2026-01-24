@@ -10,7 +10,7 @@ Every HTTP request begins with a **request line**.
 
 ### Format
 
-<HTTP_METHOD> <RESOURCE_PATH> <HTTP_VERSION>
+`<HTTP_METHOD> <RESOURCE_PATH> <HTTP_VERSION>`
 
 ### Example
 
@@ -73,7 +73,7 @@ An HTTP request may optionally include a **body**, commonly used with `POST` and
 
 ### POST Request Example
 
-POST /users HTTP/1.1
+`POST /users HTTP/1.1`
 
 Host: example.com
 
@@ -87,15 +87,14 @@ Host: example.com
 
 
 ### PUT Request Example
+```http
 PUT /users/1 HTTP/1.1
-
 Host: example.com
-
 Content-Type: text/json
 
-```json
 { "key1": "value1" }
 ```
+
 
 
 
@@ -222,26 +221,21 @@ Content-Type: text/html
 ```
 
 
-The response body may contain:
+### Response Body May Contain
 
-HTML documents
+- HTML documents  
+- Images  
+- Videos  
+- Other media types
 
-Images
-
-Videos
-
-Other media types
+---
 
 ## Summary
 
-HTTP requests begin with a request line
+- HTTP requests begin with a **request line**
+- **Methods** define actions on resources
+- **Headers** provide metadata
+- **Bodies** carry request or response data
+- **Status codes** indicate request outcomes
+- **Responses** return content to the client
 
-Methods define actions on resources
-
-Headers provide metadata
-
-Bodies carry request or response data
-
-Status codes indicate request outcomes
-
-Responses return content to the client
