@@ -87,16 +87,16 @@ Host: example.com
 
 
 ### PUT Request Example
-
-```http
 PUT /users/1 HTTP/1.1
+
 Host: example.com
+
 Content-Type: text/json
 
-{
-  "key1": "value1"
-}
+```json
+{ "key1": "value1" }
 ```
+
 
 
 ---
