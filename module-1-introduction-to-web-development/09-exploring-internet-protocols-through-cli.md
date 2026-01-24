@@ -4,7 +4,7 @@
 
 This hands-on lab provides practical experience with **Internet protocols**, focusing on IP addressing and packet transmission.
 
-Using the `ping` command in the terminal, you will observe how a domain name such as `coursera.org` resolves to an IP address and analyze packet transmission statistics like latency and packet loss.
+Using the `ping` command in the terminal, you will observe how a domain name such as `github.com` resolves to an IP address and analyze packet transmission statistics like latency and packet loss.
 
 ---
 
@@ -40,4 +40,4 @@ By completing this lab, you will be able to:
 In the terminal, type the following command and press **Enter**:
 
 ```bash
-ping coursera.org
+ping github.com
