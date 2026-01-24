@@ -74,6 +74,7 @@ An HTTP request may optionally include a **body**, commonly used with `POST` and
 ### POST Request Example
 
 POST /users HTTP/1.1
+
 Host: example.com
 
 ```json
