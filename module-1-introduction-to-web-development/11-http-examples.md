@@ -14,7 +14,7 @@ Every HTTP request begins with a **request line**.
 
 ### Example
 
-GET /home.html HTTP/1.1
+`GET /home.html HTTP/1.1`
 
 
 | Component        | Description                                   |
@@ -208,25 +208,40 @@ The response body contains the actual content returned by the server.
 
 ### Example Response
 
+```http
 HTTP/1.1 200 OK
 Date: Fri, 11 Feb 2022 15:00:00 GMT+2
 Server: Apache/2.2.14 (Linux)
 Content-Length: 84
 Content-Type: text/html
 
-<html> <head><title>Test</title></head> <body>Test HTML page.</body> </html> ```
+<html>
+  <head><title>Test</title></head> 
+  <body>Test HTML page.</body> 
+</html>
+```
+
 
 The response body may contain:
+
 HTML documents
+
 Images
+
 Videos
+
 Other media types
 
 ## Summary
 
 HTTP requests begin with a request line
+
 Methods define actions on resources
+
 Headers provide metadata
+
 Bodies carry request or response data
+
 Status codes indicate request outcomes
+
 Responses return content to the client
