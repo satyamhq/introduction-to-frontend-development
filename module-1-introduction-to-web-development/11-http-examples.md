@@ -75,23 +75,27 @@ An HTTP request may optionally include a **body**, commonly used with `POST` and
 
 POST /users HTTP/1.1
 Host: example.com
-`
+
+```json
 {
-"key1": "value1",
-"key2": "value2",
-"array1": ["value3", "value4"]
-} 
-`
+  "key1": "value1",
+  "key2": "value2",
+  "array1": ["value3", "value4"]
+}
+```
+
 
 ### PUT Request Example
 
+```http
 PUT /users/1 HTTP/1.1
 Host: example.com
 Content-Type: text/json
 
 {
-"key1": "value1"
+  "key1": "value1"
 }
+```
 
 
 ---
