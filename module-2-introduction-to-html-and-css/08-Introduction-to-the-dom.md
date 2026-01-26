@@ -1,10 +1,10 @@
 # Introduction to the Document Object Model (DOM)
 
-Imagine your favorite social media website. If it were just a plain HTML document, users could scroll the page, view images, and read text—but they wouldn’t be able to **log in**, **like posts**, or **receive notifications**.
+Imagine your favorite social media website. If it were only an HTML document, users could scroll, view pictures, and read text—but they wouldn’t be able to **log in**, **like posts**, or **receive notifications**.
 
-To enable this kind of interaction, websites need a way for **JavaScript to read, access, and update the HTML page**. This is where the **Document Object Model (DOM)** comes in.
+To allow this kind of interaction, a webpage must be represented in a way that **JavaScript can read, query, and update**. This representation is called the **Document Object Model (DOM)**.
 
-In this lesson, you will learn what the DOM is, how it is created, and how JavaScript uses it to make websites dynamic and interactive.
+In this lesson, you’ll understand what the DOM is, how it is created, and how JavaScript uses it to make websites dynamic.
 
 ---
 
@@ -12,38 +12,38 @@ In this lesson, you will learn what the DOM is, how it is created, and how JavaS
 
 **DOM** stands for **Document Object Model**.
 
-When a web browser receives an HTML document, it **constructs a DOM** to represent that page. The DOM is a **tree-like structure** where:
+When a web browser loads an HTML page, it constructs a DOM to represent that page. The DOM is a **tree-like structure** where:
 
-* Each HTML element becomes an **object**
+* Every HTML element becomes an **object**
 * Elements are organized in a **parent–child hierarchy**
-* JavaScript can access and manipulate these objects
+* JavaScript can access and modify these objects
 
-In simple terms, the DOM is a **model of your HTML page that JavaScript can work with**.
+In simple terms, the DOM is a **structured model of the HTML document** that JavaScript can work with.
 
 ---
 
 ## DOM as a Tree Structure
 
-Consider a simple HTML document:
+Think about a simple HTML document:
 
 * The document starts with `<html>`
 * Inside it are `<head>` and `<body>`
 * Inside `<head>` is `<title>`
-* Inside `<body>` are elements like `<div>`, `<h1>`, and `<p>`
+* Inside `<body>` are elements such as `<div>`, `<h1>`, and `<p>`
 
 The browser converts this HTML into a **DOM tree**.
+
 ---
 
-<img width="2218" height="1238" alt="git" src="https://github.com/user-attachments/assets/24884d2c-ab9b-40d5-85aa-75ac556438db" />
-
+<img width="2218" height="1238" alt="git" src="https://github.com/user-attachments/assets/9e058ca5-0520-4bd8-a9e1-0392ae903d24" />
 
 ---
 
 ## How the DOM Is Constructed
 
-Let’s walk through a simple example.
+Let’s look at a simple example.
 
-### HTML Structure
+### HTML Example
 
 ```html
 <html>
@@ -87,30 +87,29 @@ Each HTML element is represented as an **object** in the DOM.
 
 ---
 
-## Why the DOM Is Important
+## Why the DOM Matters
 
-Modern web pages often contain **hundreds or thousands of elements**. The DOM allows developers to:
+Real-world webpages often contain **hundreds or thousands of elements**. The DOM allows developers to:
 
-* Access elements
-* Change text and HTML content
+* Access specific elements
+* Read and update content
 * Modify attributes and styles
-* Respond to user actions
+* React to user interactions
 
-Without the DOM, websites would be **static** and non-interactive.
+Without the DOM, websites would remain **static**.
 
 ---
 
 ## JavaScript and the DOM
 
-JavaScript interacts with the DOM to make web pages **dynamic**.
+JavaScript uses the DOM to make webpages **interactive and dynamic**.
 
-Using JavaScript, developers can:
+With JavaScript, you can:
 
-* Read and update content on the page
-* Respond to user actions such as clicks, scrolling, and hovering
-* Add or remove elements dynamically
-
-> In a later course, you will learn how to access and modify DOM elements using JavaScript.
+* Update text and HTML content
+* Respond to clicks, scrolling, and mouse movements
+* Enable or disable buttons
+* Show or hide elements
 
 ---
 
@@ -120,19 +119,19 @@ Using JavaScript, developers can:
 
 * Updating a digital clock every second
 * Displaying live notifications
-* Changing text dynamically
+* Changing displayed text dynamically
 
-### Handling User Interaction
+### Responding to User Actions
 
-* Playing a video preview when a user hovers over a movie poster
+* Playing a video preview when hovering over a movie poster
 * Disabling a login button after it is clicked
-* Showing error messages when form input is invalid
+* Re-enabling the button if a login error occurs
 
 ### Adding and Removing Elements
 
+* Displaying an error message when form data is invalid
 * Adding new items to a to-do list
-* Removing items when a user clicks them
-* Displaying or hiding elements dynamically
+* Removing items when a user clicks on them
 
 ### Animations
 
@@ -140,7 +139,7 @@ Using JavaScript, developers can:
 * Showing pop-up notifications
 * Animating buttons and menus
 
-Many animations are made easier using JavaScript libraries.
+Many libraries exist to make animations easier.
 
 ---
 
@@ -156,8 +155,8 @@ One example is **React**, which efficiently updates the DOM to create fast and r
 
 * DOM stands for **Document Object Model**
 * Browsers convert HTML into a DOM tree
-* Each HTML element becomes an object
-* JavaScript uses the DOM to make pages interactive
-* DOM manipulation allows updates, animations, and user interaction
+* Every HTML element becomes an object
+* JavaScript interacts with the DOM to change webpages
+* DOM manipulation enables interaction, updates, and animations
 
-Next time you click a **like button** or see a notification pop up, remember that the DOM is working behind the scenes to make it happen 🚀
+Next time you click a **like button** or see a notification appear, remember that the DOM is working behind the scenes to make it happen.
