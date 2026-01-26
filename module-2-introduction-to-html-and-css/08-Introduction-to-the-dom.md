@@ -35,7 +35,8 @@ The browser converts this HTML into a **DOM tree**.
 
 ---
 
-<img width="2218" height="1238" alt="git" src="https://github.com/user-attachments/assets/9e058ca5-0520-4bd8-a9e1-0392ae903d24" />
+<img width="2218" height="1238" alt="git" src="https://github.com/user-attachments/assets/84fb8430-a769-484e-906a-366c72408639" />
+
 
 ---
 
