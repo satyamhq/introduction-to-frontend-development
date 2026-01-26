@@ -32,6 +32,10 @@ Consider a simple HTML document:
 * Inside `<body>` are elements like `<div>`, `<h1>`, and `<p>`
 
 The browser converts this HTML into a **DOM tree**.
+---
+
+<img width="2218" height="1238" alt="git" src="https://github.com/user-attachments/assets/24884d2c-ab9b-40d5-85aa-75ac556438db" />
+
 
 ---
 
