@@ -77,7 +77,13 @@ p {
 
 HSL stands for **Hue, Saturation, and Lightness**.
 
+<img width="3894" height="3441" alt="6W-NFfelTF-vjRX3pXxfHw_71bfe705b84941a1b8f51eea05a848e1_text_color_hue" src="https://github.com/user-attachments/assets/47bacd8b-2425-4270-903e-184063a1fa9c" />
+
+
 ### Hue
+
+![Uploading EoftTRz8S7uH7U0c_Fu7KQ_ba9919ab0ef54d29bb897ce29dcd03e1_text_color_hue2.png…]()
+
 
 * Represented as degrees on a color wheel (`0`–`360`)
 * `0` → red
