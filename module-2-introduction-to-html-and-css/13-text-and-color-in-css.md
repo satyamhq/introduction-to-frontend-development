@@ -82,7 +82,7 @@ HSL stands for **Hue, Saturation, and Lightness**.
 
 ### Hue
 
-![Uploading EoftTRz8S7uH7U0c_Fu7KQ_ba9919ab0ef54d29bb897ce29dcd03e1_text_color_hue2.png…]()
+<img width="1026" height="768" alt="EoftTRz8S7uH7U0c_Fu7KQ_ba9919ab0ef54d29bb897ce29dcd03e1_text_color_hue2" src="https://github.com/user-attachments/assets/dc684106-7d5b-4a65-b219-fc62e750b7da" />
 
 
 * Represented as degrees on a color wheel (`0`–`360`)
