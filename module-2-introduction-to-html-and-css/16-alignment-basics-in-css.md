@@ -78,7 +78,6 @@ To center an element horizontally:
 The **child element is centered horizontally** inside the parent element.
 
 <img width="313" height="36" alt="ElKjOOdnT2GSozjnZy9hJw_0670f63ae6e548a28dfa041b7983bfe1_css_center_div" src="https://github.com/user-attachments/assets/b4992294-5d83-49d4-9227-7f834959736f" />
----
 
 ## Center Aligning an Inline Element (Images)
 
@@ -154,7 +153,7 @@ The `float` property positions an element relative to the surrounding text. Text
 }
 ```
 
-<img width="710" height="371" alt="JBGR11KmTT-RkddSpn0_WA_a961d58ec8334d8387cc2df53c9b15e1_css_float_right" src="https://github.com/user-attachments/assets/e4e338bc-e12e-46d4-9bcb-de0903d6924c" />
+<img width="710" height="371" alt="02" src="https://github.com/user-attachments/assets/61b64ee7-e179-438a-b73a-c1667b5a4e3c" />
 
 ---
 
