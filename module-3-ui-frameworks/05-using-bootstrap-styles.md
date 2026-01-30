@@ -6,7 +6,7 @@ Bootstrap is a mobile-first front-end framework designed to help developers buil
 
 In this module, we focus on **Bootstrap CSS class infixes and modifiers**, which help save development time while maintaining responsive and consistent UI design.
 
----
+--- 
 
 ## Responsive Design in Bootstrap
 
