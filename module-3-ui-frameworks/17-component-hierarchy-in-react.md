@@ -8,6 +8,11 @@ React makes it easy to build user interfaces quickly by organizing the UI into r
 
 ---
 
+<img width="1920" height="965" alt="Component hierarchy _ Coursera - Google Chrome 1_30_2026 11_21_47 PM" src="https://github.com/user-attachments/assets/7b3734ee-276a-48de-ac0e-168906086d17" />
+
+
+---
+
 ## Root Component
 
 * Every React application has at least one component
